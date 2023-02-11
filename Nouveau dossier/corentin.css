@@ -1,0 +1,60 @@
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.header {
+    display: flex;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    background-color: beige;
+    justify-content: space-between;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-content: right;
+    flex-wrap:nowrap;
+}
+
+.banniere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: top right;
+    background-size: 1500px;
+    padding: 300px; 
+    background-image: url('sand_background.jpg');
+}
+
+#btn_projects {
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    justify-content: center;
+    font-size: 25px;
+    background-color: #facf0f;;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 200ms ease-out;
+    cursor: pointer;
+}
+
+#btn_projects:hover {
+    transition: 200ms ease-out;
+    background-color: #ffc000;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
