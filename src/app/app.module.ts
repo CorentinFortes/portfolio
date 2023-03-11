@@ -3,12 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './head/header/header.component';
+import { ImageFondComponent } from './head/image-fond/image-fond.component';
+import { HeadComponent } from './head/head.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    ImageFondComponent,
+    HeadComponent
   ],
   imports: [
     BrowserModule,
