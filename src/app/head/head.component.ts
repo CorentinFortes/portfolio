@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./head.component.scss']
 })
 export class HeadComponent {
-
+  cheminImage:string = "assets/images/photo moi.jpg";
+  cheminGithub:string = "assets/images/github-mark-white.png";
 }

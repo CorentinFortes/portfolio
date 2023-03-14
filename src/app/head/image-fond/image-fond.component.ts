@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './image-fond.component.html',
   styleUrls: ['./image-fond.component.scss']
 })
+
 export class ImageFondComponent {
-  cheminImage:string = "assets/images/background.jpg";
+  cheminImage:string = "assets/images/background.png";
 }
