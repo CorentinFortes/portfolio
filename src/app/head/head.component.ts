@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 export class HeadComponent {
   cheminImage:string = "assets/images/photo moi.jpg";
   cheminGithub:string = "assets/images/github-mark-white.png";
+  cheminLinkedin:string = "assets/images/linkedin.png";
+  cheminMail:string = "assets/images/mail.png";
 }
